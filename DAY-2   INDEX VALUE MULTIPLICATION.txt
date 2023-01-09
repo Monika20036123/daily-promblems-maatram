@@ -1,0 +1,17 @@
+n=list(map,(int,input().split()))
+
+a=[]
+
+for i in n:
+   
+  c=1
+
+  for j in n:
+  
+      if i!=j:
+
+          c=c*j
+
+       a.append(c)
+
+print(a)
