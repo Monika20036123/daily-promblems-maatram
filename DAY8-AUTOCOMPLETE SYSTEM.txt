@@ -1,0 +1,7 @@
+a=input()
+s=list (map(str,input().split())
+l=[]
+for i in s:
+   if i[0:len(a)]==a:
+      l.append(i)
+print(l)
