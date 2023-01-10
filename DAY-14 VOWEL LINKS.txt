@@ -1,0 +1,9 @@
+s=input().split(" ")
+v=["a","e","i","o","u"]
+l=1
+res=false
+while(l<len(s)):
+    if s[l-1] in v and s[1][0] in v:
+          res=true
+    l+=1
+print(res)
