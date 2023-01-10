@@ -1,0 +1,11 @@
+number=int(input())
+num1=0
+num2=1
+sum=0
+
+for i in range(number):
+     sum=num1+num2
+     num1=num2
+     num2=sum
+
+print(sum)
