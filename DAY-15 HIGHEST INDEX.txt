@@ -1,0 +1,10 @@
+s= input()
+alphabets=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+a=s.lower()
+max=0
+for i in a:
+    b=(alphabets.index(i))+1
+    if b>max:
+       max=b
+res=str(max)+alphabets[max-1]
+print(res) 
